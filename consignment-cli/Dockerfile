@@ -8,7 +8,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN go get
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o consignment-client
 
 
