@@ -3,6 +3,29 @@ module github.com/bopoh24/go_micro_sample/consignment-cli
 go 1.14
 
 require (
-	github.com/bopoh24/go_micro_sample/consignment-service v0.0.0-20200404165031-2c372114e875
-	google.golang.org/grpc v1.28.0
+	github.com/bopoh24/go_micro_sample/consignment-service v0.0.0-20200409180751-88e57de7387d
+	github.com/coreos/etcd v3.3.20+incompatible // indirect
+	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf // indirect
+	github.com/go-log/log v0.2.0 // indirect
+	github.com/gogo/protobuf v1.3.1 // indirect
+	github.com/json-iterator/go v1.1.9 // indirect
+	github.com/lucas-clemente/quic-go v0.15.3 // indirect
+	github.com/micro/go-micro v1.18.0
+	github.com/micro/protobuf v0.0.0-20180321161605-ebd3be6d4fdb // indirect
+	github.com/miekg/dns v1.1.29 // indirect
+	github.com/nats-io/nats.go v1.9.2 // indirect
+	github.com/pkg/errors v0.9.1 // indirect
+	go.uber.org/zap v1.14.1 // indirect
+	golang.org/x/crypto v0.0.0-20200406173513-056763e48d71 // indirect
+	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
+	golang.org/x/sys v0.0.0-20200409092240-59c9f1ba88fa // indirect
+	golang.org/x/tools v0.0.0-20200409195830-bc09a2cac95f // indirect
+	google.golang.org/genproto v0.0.0-20200409111301-baae70f3302d // indirect
+	google.golang.org/grpc v1.28.1
+	honnef.co/go/tools v0.0.1-2020.1.3 // indirect
+)
+
+replace (
+	github.com/coreos/go-systemd => github.com/coreos/go-systemd/v22 v22.0.0
+	google.golang.org/grpc => google.golang.org/grpc v1.26.0
 )
