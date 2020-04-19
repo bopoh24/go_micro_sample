@@ -1,3 +1,7 @@
+### Generate from proto file using **go-micro**:
+
+    protoc -I. --go_out=plugins=micro:. proto/vessel/vessel.proto
+
 ### Docker build and run
 
     docker build -t vessel-service .

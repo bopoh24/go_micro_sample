@@ -1,7 +1,3 @@
-
-### Generate from proto file:
-    protoc -I. --go_out=plugins=grpc:.   proto/consignment/consignment.proto
-
 ### Generate from proto file using **go-micro**:
 
     protoc -I. --go_out=plugins=micro:. proto/consignment/consignment.proto
